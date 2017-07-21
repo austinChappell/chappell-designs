@@ -1,0 +1,305 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #192B33;
+}
+
+.hero-image {
+  background-image: url('images/hero-image-03.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: 70% 50%;
+  height: 100vh;
+  text-align: center;
+}
+
+#brand-logo {
+  width: 200px;
+  padding-top: 20vh;
+  opacity: 0;
+}
+
+.title-opaque {
+  opacity: 0;
+}
+
+h1 {
+  color: #EDE4D3;
+  padding-top: 5vh;
+  margin: 0;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h2 {
+  color: #EDE4D3;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+h3 {
+  color: #192B33;
+  text-align: center;
+  margin: 0 auto 40px;
+  padding-top: 80px;
+  font-size: 62px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #192B33;
+  font-size: 18px;
+}
+
+#skills-section {
+  min-height: 100vh;
+  background: #F6FAFD;
+  padding-bottom: 50px;
+}
+
+#portfolio-section {
+  min-height: 100vh;
+  background: #EAEDF0;
+  padding-bottom: 50px;
+}
+
+#portfolio-section .container {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#portfolio-section a {
+  flex-basis: 48%;
+  flex-grow: 1;
+  margin: 1%;
+  text-align: center;
+  position: relative;
+}
+
+.inner {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 500ms;
+}
+
+.outer:hover .inner {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.outer:hover .inner span {
+  color: rgba(255, 255, 255, 1);
+  border: 4px solid rgba(255, 255, 255, 1);
+}
+
+.outer img {
+  width: 100%;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner span {
+  color: rgba(255, 255, 255, 0);
+  transition: 1500ms;
+  font-size: 2.0em;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  border: 4px solid rgba(255, 255, 255, 0);
+}
+
+#ellee-bakery-photo {
+  background: url('images/ellee-bakery.jpg');
+  background-size: cover;
+}
+
+#donut-house-photo {
+  background: url('images/donut-house.jpg');
+  background-size: cover;
+}
+
+#weather-app-photo {
+  background: url('images/weather-app.jpg');
+  background-size: cover;
+}
+
+#wiki-search-photo {
+  background: url('images/wiki-search-website-thumbnail.jpg');
+  background-size: cover;
+}
+
+.container {
+  width: 70%;
+}
+
+.center-wrapper {
+  text-align: center;
+}
+
+.skill {
+  width: 15%;
+  min-width: 100px;
+  margin: 30px 8%;
+}
+
+.half-width-para {
+  width: 40%;
+  margin: 30px 5%;
+  float: left;
+}
+
+.portfolio-pic {
+  width: 100%;
+}
+
+#contact-section {
+  min-height: 60vh;
+  background: #F6FAFD;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact-wrapper {
+  width: 70%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.contact-wrapper p {
+  margin: 20px auto;
+}
+
+.cta-btn {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 6px 20px;
+  margin: 30px 0 60px;
+  outline: none;
+  max-width: 160px;
+}
+
+.get-started-btn, .form-submit:hover {
+  background: #FF7F00;
+  color: #192B33;
+  border: 1px solid #192B33;
+}
+
+.get-started-btn:hover, .form-submit {
+  background: #192B33;
+  color: #FF7F00;
+  border: 1px solid #FF7F00;
+}
+
+#footer {
+  min-height: 20vh;
+  background: #192B33;
+  color: #EDE4D3;
+  text-align: center;
+}
+
+.social-media {
+  width: 5%;
+  margin: 10px;
+}
+
+i {
+  color: #EDE4D3;
+}
+
+.fa {
+  font-size: 30px;
+  margin: 0 8px;
+}
+
+#footer p {
+  color: #EDE4D3;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+.dark-background {
+  background: #192B33;
+}
+
+.center {
+  text-align: center;
+}
+
+.form-title {
+  color: #FF7F00;
+  margin-bottom: 50px;
+}
+
+.form-input {
+  display: block;
+  margin: 15px auto;
+  resize: none;
+  width: 70%;
+  max-width: 400px;
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  background: #EDE4D3;
+  color: #192B33;
+}
+
+.transparent {
+  opacity: 0;
+}
+
+@media screen and (max-width: 900px) {
+  .hero-image {
+    background-attachment: scroll;
+  }
+  #brand-logo {
+    width: 100px;
+    padding-top: 5vh;
+  }
+  .container {
+    width: 90%;
+  }
+  #portfolio-section a {
+    flex-basis: 100%;
+    margin: 1% 0;
+  }
+  .inner span {
+    font-size: 1.5em;
+  }
+  .half-width-para {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .skill {
+    width: 40%;
+    max-width: 120px;
+    margin: 30px 20%;
+  }
+  .form-input {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .inner span {
+    font-size: 2.2em;
+  }
+}
