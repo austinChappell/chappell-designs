@@ -127,26 +127,6 @@ p {
   border: 4px solid rgba(255, 255, 255, 0);
 }
 
-#ellee-bakery-photo {
-  background: url('images/ellee-bakery.jpg');
-  background-size: cover;
-}
-
-#donut-house-photo {
-  background: url('images/donut-house.jpg');
-  background-size: cover;
-}
-
-#weather-app-photo {
-  background: url('images/weather-app.jpg');
-  background-size: cover;
-}
-
-#wiki-search-photo {
-  background: url('images/wiki-search-website-thumbnail.jpg');
-  background-size: cover;
-}
-
 .container {
   width: 70%;
 }
