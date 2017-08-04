@@ -1,7 +1,7 @@
 html, body {
   height: 100%;
   width: 100%;
-  background: #192B33;
+  background: #253546;
 }
 
 .hero-image {
@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  color: #192B33;
+  color: #253546;
   text-align: center;
   margin: 0 auto 40px;
   padding-top: 80px;
@@ -58,7 +58,7 @@ h4 {
 }
 
 p {
-  color: #192B33;
+  color: #253546;
   font-size: 18px;
 }
 
@@ -66,6 +66,7 @@ p {
   min-height: 100vh;
   background: #F6FAFD;
   padding-bottom: 50px;
+  text-align: center;
 }
 
 #portfolio-section {
@@ -145,6 +146,7 @@ p {
   width: 40%;
   margin: 30px 5%;
   float: left;
+  text-align: left;
 }
 
 .portfolio-pic {
@@ -178,20 +180,20 @@ p {
 }
 
 .get-started-btn, .form-submit:hover {
-  background: #FF7F00;
-  color: #192B33;
-  border: 1px solid #192B33;
+  background: #ECAE57;
+  color: #253546;
+  border: 1px solid #253546;
 }
 
 .get-started-btn:hover, .form-submit {
-  background: #192B33;
-  color: #FF7F00;
-  border: 1px solid #FF7F00;
+  background: #253546;
+  color: #ECAE57;
+  border: 1px solid #ECAE57;
 }
 
 #footer {
   min-height: 20vh;
-  background: #192B33;
+  background: #253546;
   color: #EDE4D3;
   text-align: center;
 }
@@ -217,7 +219,7 @@ i {
 }
 
 .dark-background {
-  background: #192B33;
+  background: #253546;
 }
 
 .center {
@@ -225,7 +227,7 @@ i {
 }
 
 .form-title {
-  color: #FF7F00;
+  color: #ECAE57;
   margin-bottom: 50px;
 }
 
@@ -239,7 +241,7 @@ i {
   border: none;
   padding: 5px;
   background: #EDE4D3;
-  color: #192B33;
+  color: #253546;
 }
 
 .transparent {

@@ -11,7 +11,7 @@
   <body class='dark-background center'>
     <div class='container'>
       <h1 class='form-title'>Thank you for contacting me. I will be in touch with you shortly.</h1>
-      <a href='../index-home.html'><button class='cta-btn form-submit'>Back Home</button></a>
+      <a href='../index.html'><button class='cta-btn form-submit'>Back Home</button></a>
 
       <?php
 
