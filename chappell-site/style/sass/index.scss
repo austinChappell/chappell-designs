@@ -1,11 +1,18 @@
+$color-primary: #253546;
+$color-secondary: #ECAE57;
+$color-tertiary: #EDE4D3;
+$white-one: #F6FAFD;
+$white-two: #EAEDF0;
+$section-padding-bottom: 50px;
+
 html, body {
   height: 100%;
   width: 100%;
-  background: #253546;
+  background: $color-primary;
 }
 
 .hero-image {
-  background-image: url('images/hero-image-03.jpg');
+  background-image: url('../../images/hero-image-03.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -28,7 +35,7 @@ html, body {
 }
 
 h1 {
-  color: #EDE4D3;
+  color: $color-tertiary;
   padding-top: 5vh;
   margin: 0;
   text-align: center;
@@ -37,13 +44,13 @@ h1 {
 }
 
 h2 {
-  color: #EDE4D3;
+  color: $color-tertiary;
   font-size: 24px;
   font-weight: 100;
 }
 
 h3 {
-  color: #253546;
+  color: $color-primary;
   text-align: center;
   margin: 0 auto 40px;
   padding-top: 80px;
@@ -58,21 +65,21 @@ h4 {
 }
 
 p {
-  color: #253546;
+  color: $color-primary;
   font-size: 18px;
 }
 
 #skills-section {
   min-height: 100vh;
-  background: #F6FAFD;
-  padding-bottom: 50px;
+  background: $white-one;
+  padding-bottom: $section-padding-bottom;
   text-align: center;
 }
 
 #portfolio-section {
   min-height: 100vh;
-  background: #EAEDF0;
-  padding-bottom: 50px;
+  background: $white-two;
+  padding-bottom: $section-padding-bottom;
 }
 
 #portfolio-section .container {
@@ -155,9 +162,9 @@ p {
 
 #contact-section {
   min-height: 60vh;
-  background: #F6FAFD;
+  background: $white-one;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: $section-padding-bottom;
 }
 
 .contact-wrapper {
@@ -180,21 +187,21 @@ p {
 }
 
 .get-started-btn, .form-submit:hover {
-  background: #ECAE57;
-  color: #253546;
-  border: 1px solid #253546;
+  background: $color-secondary;
+  color: $color-primary;
+  border: 1px solid $color-primary;
 }
 
 .get-started-btn:hover, .form-submit {
-  background: #253546;
-  color: #ECAE57;
-  border: 1px solid #ECAE57;
+  background: $color-primary;
+  color: $color-secondary;
+  border: 1px solid $color-secondary;
 }
 
 #footer {
   min-height: 20vh;
-  background: #253546;
-  color: #EDE4D3;
+  background: $color-primary;
+  color: $color-tertiary;
   text-align: center;
 }
 
@@ -204,7 +211,7 @@ p {
 }
 
 i {
-  color: #EDE4D3;
+  color: $color-tertiary;
 }
 
 .fa {
@@ -213,13 +220,21 @@ i {
 }
 
 #footer p {
-  color: #EDE4D3;
+  color: $color-tertiary;
   margin-top: 10px;
   padding-bottom: 20px;
 }
 
+#footer i {
+  transition: 500ms;
+}
+
+#footer i:hover {
+  color: $color-secondary;
+}
+
 .dark-background {
-  background: #253546;
+  background: $color-primary;
 }
 
 .center {
@@ -227,7 +242,7 @@ i {
 }
 
 .form-title {
-  color: #ECAE57;
+  color: $color-secondary;
   margin-bottom: 50px;
 }
 
@@ -240,8 +255,8 @@ i {
   border-radius: 3px;
   border: none;
   padding: 5px;
-  background: #EDE4D3;
-  color: #253546;
+  background: $color-tertiary;
+  color: $color-primary;
 }
 
 .transparent {

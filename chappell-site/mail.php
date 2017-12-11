@@ -6,7 +6,7 @@
     <title>Chappell Designs</title>
     <script src="https://use.fontawesome.com/62c3bd892c.js"></script>
     <link type='text/css' rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
-    <link type='text/css' rel='stylesheet' href='index.css' />
+    <link type='text/css' rel='stylesheet' href='./style/css/index.css' />
   </head>
   <body class='dark-background center'>
     <div class='container'>
@@ -23,7 +23,7 @@
         $recipient = 'Austin.W.Chappell@gmail.com';
         $subject = 'Web Development Inquiry';
         $mailheader = "From: $sender \r\n";
-        $formContent = "Name: $name \n Email: $email \n Phone: $phone \n Message: $message";
+        $formContent = "Name: $name \nEmail: $email \nPhone: $phone \nMessage: $message";
         mail($recipient, $subject, $formContent, $mailheader);
 
       ?>
