@@ -140,13 +140,29 @@ p {
 }
 
 .center-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
 }
 
 .skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 15%;
   min-width: 100px;
   margin: 30px 8%;
+
+
+  img {
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 16px;
+    margin: 4px 0 0;
+  }
 }
 
 .half-width-para {
